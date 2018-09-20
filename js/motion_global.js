@@ -25,7 +25,7 @@ $(document).ready(function () {
   var sidebarToggleLine3rdStatusClose = {width: '100%', rotateZ: '45deg', top: '-5px'};
 
   LogoAndMenuMotion();
-  sidebarShowMotion();
+  //sidebarShowMotion();
   sidebarToggleMotion();
   postsListMotion();
   backToTopMotion();
@@ -152,6 +152,7 @@ $(document).ready(function () {
   }
 
   function sidebarToggleMotion () {
+    isSidebarVisible = sidebarShowMotion();
     sidebarToggle.on('click', function () {
       isSidebarVisible ? sidebarHideMotion() : sidebarShowMotion();
       isSidebarVisible = !isSidebarVisible;
