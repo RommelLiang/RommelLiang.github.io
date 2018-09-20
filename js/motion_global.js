@@ -152,7 +152,8 @@ $(document).ready(function () {
   }
 
   function sidebarToggleMotion () {
-    isSidebarVisible = sidebarShowMotion();
+    isSidebarVisible ? sidebarHideMotion() : sidebarShowMotion();
+    isSidebarVisible = !isSidebarVisible;
     sidebarToggle.on('click', function () {
       isSidebarVisible ? sidebarHideMotion() : sidebarShowMotion();
       isSidebarVisible = !isSidebarVisible;
