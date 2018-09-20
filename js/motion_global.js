@@ -25,10 +25,11 @@ $(document).ready(function () {
   var sidebarToggleLine3rdStatusClose = {width: '100%', rotateZ: '45deg', top: '-5px'};
 
   LogoAndMenuMotion();
+  sidebarShowMotion();
   sidebarToggleMotion();
   postsListMotion();
   backToTopMotion();
-  sidebarShowMotion();
+
 
   //add motion effect to toc
   $('.sidebar-nav-toc') && $('.post-toc-wrap').addClass('motion-element');
