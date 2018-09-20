@@ -26,7 +26,7 @@ $(document).ready(function () {
 
   LogoAndMenuMotion();
   //sidebarShowMotion();
-  sidebarToggleMotion();
+  //sidebarToggleMotion();
   postsListMotion();
   backToTopMotion();
 
@@ -171,4 +171,5 @@ $(document).ready(function () {
       sidebarToggleLine3rd.velocity('stop').velocity(sidebarToggleLine3rdStatusInit);
     });
   }
+  sidebarToggleMotion();
 });
