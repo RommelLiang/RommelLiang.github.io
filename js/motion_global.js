@@ -28,6 +28,7 @@ $(document).ready(function () {
   sidebarToggleMotion();
   postsListMotion();
   backToTopMotion();
+  sidebarShowMotion();
 
   //add motion effect to toc
   $('.sidebar-nav-toc') && $('.post-toc-wrap').addClass('motion-element');
